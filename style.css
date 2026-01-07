@@ -9,7 +9,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightblue;
+  background-image: url("tech\ background.jpg");
+  background-size: cover; /* this fits the image in the background */
+  background-position: center; /* center the image */
+  background-repeat: no-repeat; /* do not repeat the image */
   font-family: Arial, sans-serif;
 }
 
@@ -27,7 +30,7 @@ body {
   height: 120px;
   border-radius: 20%;
   object-fit: cover;
-  margin-bottom: 15px;
+  margin-bottom: 1px;
 }
 
 .card h2 {
@@ -36,8 +39,9 @@ body {
 }
 
 .role {
-  color: gray;
-  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -54,7 +58,7 @@ body {
   color: white;
   border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
