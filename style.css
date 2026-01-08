@@ -23,10 +23,16 @@ body {
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition-property: all;
+  transition-duration: 2s;
 }
 .card:hover{
   background-color: rgb(245, 245, 245);
 }
+.card:active{
+  background-color: lightgray;
+}
+
 
 .profile-img {
   width: 120px;
@@ -68,7 +74,7 @@ body {
   background-color: black;
 }
 .profile-header {
-  background-color: lightskyblue;
+  background-color: lightgray;
   border-radius: 15px;
   padding: 10px;
   margin-bottom: 20px;
